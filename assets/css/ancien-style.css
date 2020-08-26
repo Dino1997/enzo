@@ -1,0 +1,103 @@
+/* DOCUMENT INFORMATION*/
+/*font-family: 'Ubuntu',
+sans-serif;*/
+body {
+  margin: 0;
+  padding: 0;
+}
+li {list-style: none;}
+
+/* HEADER=======================================*/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../../assets/images/background1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+/* header .container {
+  text-align: center;
+} */
+/* Plus besoin grace au classe bootstrap */
+/* header .container img {
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+} */
+header .container h1 {
+  /* color: whitesmoke; */
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+}
+header .container h3 {
+  /* Remplacer par text-white */
+  /* color: whitesmoke; */
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+}
+header .container button {
+  background-color: #6d4317;
+  padding: 20px 50px;
+  border-radius: 10px;
+  /* Remplacer par text-white */
+  /* color: whitesmoke; */
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  /* font-weight: bold; */
+  border: none;
+  /* Remplacer par mt-5 */
+  /* margin-top: 50px; */
+  transition: text-shadow 0.5s, background-color 0.5s;
+}
+header .container button:hover {
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+  background-color: #80501b;
+}
+
+/* PRESENTATION/AVIS====================*/
+/* Remplacer par txt-center */
+/* .section-presentation-devis .container {
+  text-align: center;
+} */
+.section-presentation-devis .container .presentation {
+  background-color: #b9ab8d;
+  /* Remplacer par m-2 */
+  /* margin: 25px; */
+}
+/* Remplacer par my-3 */
+/* .section-presentation-devis .container .presentation .button-info {
+  margin-top: 25px;
+  margin-bottom: 25px;
+} */
+.section-presentation-devis .container .presentation .button-info button {
+  background-color: #49bb26;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  /* Remplacer par text-white */
+  /* color: whitesmoke; */
+  border: solid 6px whitesmoke;
+  border-radius: 15px;
+  transition: background-color 0.5s;
+}
+/* Remplacer par text-white */
+/* .section-presentation-devis .container .presentation .button-info button i {
+  color: whitesmoke;
+} */
+.section-presentation-devis .container .presentation .button-info button:hover {
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+  background-color: #51ce2b;
+}
+.section-presentation-devis .container .presentation .info h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  color: #6d4317;
+}
+.section-presentation-devis .container .presentation .reseau ul li {
+  display: inline;
+  font-size: 25px;
+}
+.section-presentation-devis .container .presentation .reseau ul li i {
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
